@@ -1,18 +1,16 @@
 Prompting Handbook
 ====================
-- [Prompting Handbook](#prompting-handbook)
+Spis treści:
   * [Wstęp](#wstęp)
-  * [1) Precyzyjnie formułuj instrukcje](#1--precyzyjnie-formu-uj-instrukcje)
-  * [2) Oddzielaj instrukcje od treści promptu](#2--oddzielaj-instrukcje-od-tre-ci-promptu)
-    + [Przykłady złych vs. dobrych promptów:](#przyk-ady-z-ych-vs-dobrych-prompt-w--1)
-    + [👉 Kluczowe elementy oddzielania instrukcji:](#---kluczowe-elementy-oddzielania-instrukcji-)
-    + [Praktyczne wskazówki:](#praktyczne-wskaz-wki--1)
-    + [💡 Przykład kompleksowego promptu:](#---przyk-ad-kompleksowego-promptu--1)
+  * [1) Precyzyjnie formułuj instrukcje](#1-precyzyjnie-formułuj-instrukcje)
+  * [2) Oddzielaj instrukcje od treści promptu](#2-oddzielaj-instrukcje-od-treści-promptu)
   * [3) Nadawaj modelowi konkretną rolę](#3-nadawaj-modelowi-konkretną-rolę)
-    + [Przykłady złych vs. dobrych promptów:](#przyk-ady-z-ych-vs-dobrych-prompt-w--2)
-    + [👉 Popularne role do wykorzystania:](#---popularne-role-do-wykorzystania-)
-    + [Praktyczne wskazówki:](#praktyczne-wskaz-wki--2)
-    + [💡 Przykład kompleksowego promptu:](#---przyk-ad-kompleksowego-promptu--2)
+  * [4) Określaj styl i ton wypowiedzi](#4-określaj-styl-i-ton-wypowiedzi)
+  * [5) Zero-shot prompting - proste i skuteczne podejście](#5-zero-shot-prompting---proste-i-skuteczne-podejście)
+  * [6) One-shot prompting - nauka na przykładzie](#6-one-shot-prompting---nauka-na-przykładzie)
+  * [7) Few-shot prompting - ucz model na przykładach](#7-few-shot-prompting---ucz-model-na-przykładach)
+  * [8) Chain-of-Thought (CoT) - Myślenie krok po kroku](#8-chain-of-thought-cot---myślenie-krok-po-kroku)
+  * [9) Zero-Shot Chain-of-Thought (ZeroShotCoT)](#9-zero-shot-chain-of-thought-zeroshotcot)
 
 ## Wstęp
 Hej, witam Cię drogi czytelniku! Ten ebook ma na celu przedstawić Ci najważniejsze techniki pisania promptów dla modeli językowych. Jeśli więc kożystasz z np. chataGPT, Cloude.ai lub bezpośrednio z jakiegoś modelu LLM to ten poradnik jest właśnie dla Ciebie.
